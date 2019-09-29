@@ -1,3 +1,5 @@
+'use strict';
+
 function getStringArr(str) {
     if (str === null || str === undefined || typeof str === 'undefined' || str.toString().trim().length <= 0) {
         return [];
@@ -46,7 +48,7 @@ CaseFormatter.prototype.snakeCase = function (str) {
     return strArr.length <= 0 ? '' :  strArr.join('_');
 };
 
-CaseFormatter.prototype.upperCase = function (str) {
+CaseFormatter.prototype.upperSnakeCase = function (str) {
     var strArr = getStringArr(str);
     var upperArr = [];
     for (var i = 0; i < strArr.length; i++) {

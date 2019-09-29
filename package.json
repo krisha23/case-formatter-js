@@ -1,7 +1,7 @@
 {
   "name": "case-formatter-js",
-  "version": "1.0.0",
-  "description": "Easily convert any string to the listed programming cases.",
+  "version": "1.0.1",
+  "description": "Easily format any javascript string into a programming case.",
   "main": "index.js",
   "dependencies": {
     "npm": "^6.11.3"
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/krisha23/case-formatter-js.git"
   },
   "keywords": [
-    "case"
+    "case", "format", "snake case", "pascal case", "flat case", "upper snake case", "kebab case"
   ],
   "author": "Krisha Lal <info.krisha.lal@gmail.com>",
   "license": "MIT",
