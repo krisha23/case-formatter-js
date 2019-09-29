@@ -1,0 +1,26 @@
+{
+  "name": "case-converter",
+  "version": "1.0.0",
+  "description": "Easily convert any string to the listed programming cases.",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.11.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisha23/case-converter.git"
+  },
+  "keywords": [
+    "case"
+  ],
+  "author": "Krisha Lal <info.krisha.lal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krisha23/case-converter/issues"
+  },
+  "homepage": "https://github.com/krisha23/case-converter#readme"
+}
