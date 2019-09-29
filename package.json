@@ -1,5 +1,5 @@
 {
-  "name": "case-converter",
+  "name": "case-formatter-js",
   "version": "1.0.0",
   "description": "Easily convert any string to the listed programming cases.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krisha23/case-converter.git"
+    "url": "git+https://github.com/krisha23/case-formatter-js.git"
   },
   "keywords": [
     "case"
@@ -20,7 +20,7 @@
   "author": "Krisha Lal <info.krisha.lal@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krisha23/case-converter/issues"
+    "url": "https://github.com/krisha23/case-formatter-js/issues"
   },
-  "homepage": "https://github.com/krisha23/case-converter#readme"
+  "homepage": "https://github.com/krisha23/case-formatter-jsr#readme"
 }
