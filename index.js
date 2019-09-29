@@ -57,3 +57,5 @@ CaseFormatter.prototype.upperSnakeCase = function (str) {
 
     return upperArr.length <= 0 ? '' :  upperArr.join('_');
 };
+
+module.exports = CaseFormatter;
