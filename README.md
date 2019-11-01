@@ -4,7 +4,7 @@ Github repository for `case-formatter-js` npm package.
 # How to use?
 1. Install using *npm*
 
-   Run `npm install case-formatter-js`.
+   Run `npm install case-formatter-js@latest`.
    
 2. Import the module and initialize:
 
