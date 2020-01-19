@@ -5,7 +5,7 @@ function getStringArr(str) {
         return [];
     }
 
-    str = str.replace(/\s\s+/g, ' ');
+    str = str.toString().replace(/\s\s+/g, ' ');
     return str.split(' ');
 }
 
