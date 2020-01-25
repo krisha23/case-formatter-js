@@ -33,9 +33,19 @@ CaseFormatter.prototype.flatCase = function (str) {
     return strArr.length <= 0 ? '' :  strArr.join('');
 };
 
+CaseFormatter.prototype.upperFlatCase = function (str) {
+    var strArr = getCaseFormattedArr(getStringArr(str));
+    return strArr.length <= 0 ? '' :  strArr.join('').toUpperCase();
+};
+
 CaseFormatter.prototype.kebabCase = function (str) {
     var strArr = getCaseFormattedArr(getStringArr(str));
     return strArr.length <= 0 ? '' :  strArr.join('-');
+};
+
+CaseFormatter.prototype.upperKebabCAse = function (str) {
+    var strArr = getCaseFormattedArr(getStringArr(str));
+    return strArr.length <= 0 ? '' :  strArr.join('-').toUpperCase();
 };
 
 CaseFormatter.prototype.pascalCase = function (str) {

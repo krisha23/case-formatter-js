@@ -1,6 +1,6 @@
 {
   "name": "case-formatter-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easily format any javascript string into a programming case.",
   "main": "index.js",
   "dependencies": {

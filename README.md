@@ -19,36 +19,48 @@ Github repository for `case-formatter-js` npm package.
 # Available Cases
 1. `camelCase()`:
 
-   eg: `formatter.camelCase('my awesome string);`
+   eg: `formatter.camelCase('my awesome string');`
    
    returns "myAwesomeString".
    
 2. `flatCase()`:
 
-   eg: `formatter.flatCase('my awesome string);`
+   eg: `formatter.flatCase('my awesome string');`
+   
+   returns "myawesomestring".
+   
+3. `upperFlatCase()`:
+
+   eg: `formatter.upperFlatCase('MYAWESOMESTRING');`
    
    returns "myawesomestring".
 
-3. `kebabCase()`:
+4. `kebabCase()`:
 
-   eg: `formatter.kebabCase('my awesome string);`
+   eg: `formatter.kebabCase('my awesome string');`
    
    returns "my-awesome-string".
    
-4. `pascalCase()`:
+5. `upperKebabCase()`:
 
-   eg: `formatter.camelCase('my awesome string);`
+   eg: `formatter.upperKebabCase('my awesome string');`
+   
+   returns "MY-AWESOME-STRING".
+   
+6. `pascalCase()`:
+
+   eg: `formatter.camelCase('my awesome string');`
    
    returns "MyAwesomeString".
    
-5. `snakeCase()`:
+7. `snakeCase()`:
 
-   eg: `formatter.snakeCase('my awesome string);`
+   eg: `formatter.snakeCase('my awesome string');`
    
    returns "my_awesome_string".
    
-6. `upperSnakeCase()`:
+8. `upperSnakeCase()`:
 
-   eg: `formatter.upperSnakeCase('my awesome string);`
+   eg: `formatter.upperSnakeCase('my awesome string');`
    
-   returns "My Awesome String".
+   returns "MY_AWESOME_STRING".

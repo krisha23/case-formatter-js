@@ -80,6 +80,45 @@ describe('Flat case', function () {
     });
 });
 
+describe('Upper Flat case', function () {
+    it('should work', function() {
+        let str = formatter.upperFlatCase(testString);
+        expect(str).toEqual('MYAWESOMESTRING');
+    });
+    it('should work', function() {
+        let str = formatter.upperFlatCase('test');
+        expect(str).toEqual('TEST');
+    });
+    it('should work', function() {
+        let str = formatter.upperFlatCase(123);
+        expect(str).toEqual('123');
+    });
+    it('should work', function() {
+        let str = formatter.upperFlatCase('123 abc def');
+        expect(str).toEqual('123ABCDEF');
+    });
+    it('should work', function() {
+        let str = formatter.upperFlatCase('123 456');
+        expect(str).toEqual('123456');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperFlatCase(null);
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperFlatCase(undefined);
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperFlatCase('');
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperFlatCase('   ');
+        expect(str).toEqual('');
+    });
+});
+
 describe('Kebab case', function () {
     it('should work', function() {
         let str = formatter.kebabCase(testString);
@@ -115,6 +154,45 @@ describe('Kebab case', function () {
     });
     it('should return empty', function() {
         let str = formatter.kebabCase('   ');
+        expect(str).toEqual('');
+    });
+});
+
+describe('Upper Kebab case', function () {
+    it('should work', function() {
+        let str = formatter.upperKebabCAse(testString);
+        expect(str).toEqual('MY-AWESOME-STRING');
+    });
+    it('should work', function() {
+        let str = formatter.upperKebabCAse('test');
+        expect(str).toEqual('TEST');
+    });
+    it('should work', function() {
+        let str = formatter.upperKebabCAse(123);
+        expect(str).toEqual('123');
+    });
+    it('should work', function() {
+        let str = formatter.upperKebabCAse('123 abc def');
+        expect(str).toEqual('123-ABC-DEF');
+    });
+    it('should work', function() {
+        let str = formatter.upperKebabCAse('123 456');
+        expect(str).toEqual('123-456');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperKebabCAse(null);
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperKebabCAse(undefined);
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperKebabCAse('');
+        expect(str).toEqual('');
+    });
+    it('should return empty', function() {
+        let str = formatter.upperKebabCAse('   ');
         expect(str).toEqual('');
     });
 });
